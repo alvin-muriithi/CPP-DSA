@@ -30,6 +30,6 @@ int main() {
     else {
         cout << character << " is not a letter" << endl;
     }
-    
+
     return 0;
 }
