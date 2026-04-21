@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    int x = 0;   
+    double x = 0;   
     int y = 20;     
     
     //repeats the loop until y is less than 6
     do {
         y = y - 4;          // SUBTRACT 4 FROM y
-        x = x + (2 / y);  // ADD 2/y TO x
+        x = x + (2.0 / y);  // ADD 2/y TO x
     } while (y >= 6);       // UNTIL y IS LESS THAN 6 (continue while y >= 6)
     
     // x value after the loop
